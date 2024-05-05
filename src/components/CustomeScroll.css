@@ -1,0 +1,21 @@
+.feed-custome-scroll {}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #0F0F0F;
+    display: none;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #717171;
+    border-radius: 5px;
+    display: none;
+}
+
+.custom-scrollbar:hover::-webkit-scrollbar-track,
+.custom-scrollbar:hover::-webkit-scrollbar-thumb {
+    display: block;
+}
